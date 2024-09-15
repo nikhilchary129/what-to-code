@@ -1,0 +1,21 @@
+{
+  "name": "what-to-code",
+  "version": "1.0.0",
+  "description": "what can u code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.0.3",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.2"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
