@@ -1,0 +1,69 @@
+# Node.js
+node_modules/                 # Node.js dependencies
+npm-debug.log                 # NPM debug log
+yarn-error.log                # Yarn error log
+package-lock.json             # NPM package lock file (optional, but recommended to track)
+yarn.lock                     # Yarn lock file (optional, but recommended to track)
+.pnp/                         # Yarn Plug'n'Play (if using Yarn)
+.pnp.js                       # Yarn Plug'n'Play JavaScript file (if using Yarn)
+coverage/                     # Code coverage reports
+dist/                         # Distribution directory (for built files)
+build/                        # Build output directory (for React and other build outputs)
+.env                          # Environment variable file
+
+# React specific
+*.log                         # Log files
+*.env                         # Environment variable file
+*.env.*                       # Environment variable files with a suffix
+.DS_Store                     # macOS Finder metadata
+*.swp                         # Swap files (Vim)
+*.swo                         # Swap files (Vim)
+*.sublime-project              # Sublime Text project files
+*.sublime-workspace            # Sublime Text workspace files
+.vscode/                      # Visual Studio Code workspace settings
+.idea/                        # JetBrains IDEs project settings
+
+# OS-specific
+Thumbs.db                     # Windows thumbnail cache
+ehthumbs.db                   # Windows thumbnail cache
+Desktop.ini                   # Windows desktop settings
+
+# Build and dependency directories
+jspm_packages/                # JSPM dependency directory
+node_modules/                 # Node.js modules
+
+# Temporary files and directories
+*.tmp                         # Temporary files
+*.temp                        # Temporary files
+*.bak                         # Backup files
+
+# IDEs and editors
+.vscode/                      # Visual Studio Code settings
+.idea/                        # JetBrains IDEs settings
+*.sublime-project              # Sublime Text project files
+*.sublime-workspace            # Sublime Text workspace files
+
+# Logs
+*.log                         # Log files
+
+# Coverage
+coverage/                     # Coverage reports from testing
+
+# NPM
+package-lock.json             # Package lock file for NPM (optional, but often tracked)
+yarn.lock                     # Yarn lock file (optional, but often tracked)
+
+# Miscellaneous
+.DS_Store                     # macOS Finder metadata
+*.log                         # Log files
+*.swp                         # Swap files (Vim)
+*.swo                         # Swap files (Vim)
+*.tmp                         # Temporary files
+*.temp                        # Temporary files
+*.bak                         # Backup files
+*.pid                         # PID files
+*.gz                          # Gzip compressed files
+*.zip                         # Zip files
+
+# Git
+.gitignore                     # Git ignore file itself (not needed in repo)
